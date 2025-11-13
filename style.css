@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+/* General Style */
 *{
   margin:0;
   padding:0;
@@ -10,6 +10,13 @@ body{
   font-size: 1rem;
   color:#111;
   line-height: 1.4;
+     font-family: var(--font);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
 }
 .container{
   max-width: 1200px;
@@ -30,6 +37,20 @@ body{
   color-scheme: #4b088a;
   background-color: #331197;
  
+}
+section:not(.hero) {
+padding: 6rem 0;
+}
+section > .section-title{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+  section > .section-subtitle{
+text-align: center;
+color: dimgrey;
+margin-bottom: 3rem;
+  
 }
 /* Header style */
 header{
@@ -90,7 +111,7 @@ padding-left: .5rem;
 /* Hero-style */
 .hero{
   height: 90vh;
-  background: url('images/spoon.jpg');
+  /*background: url('images/spoon.jpg'); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,7 +120,7 @@ position:relative;
 }
 .hero-overlay{
   color: #fff;
-  background: #00000080;
+  background: #00000050;
   position: absolute;
 inset: 0;
 display: flex;
@@ -118,4 +139,24 @@ justify-content: center;
 }
 .hero-content p {
   margin-bottom: 2rem;
+}
+/* Service style */
+.services > .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.service-card{
+  text-align: center;
+  background-color: rgb(207, 193, 245);
+border-radius: 5px;
+padding: 1rem;
+transition: box-shadow .5s ease ;
+}
+.service-card:hover{
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+.service-card .service-title{
+font-size: 1.125rem;
+margin-bottom: .5rem;
 }
