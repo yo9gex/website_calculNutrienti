@@ -74,7 +74,7 @@ header .logo a{
   
 }
 img{
-  width: 75px;
+  width: 48px;
   height:auto;
 }
 
@@ -160,3 +160,4 @@ transition: box-shadow .5s ease ;
 font-size: 1.125rem;
 margin-bottom: .5rem;
 }
+
