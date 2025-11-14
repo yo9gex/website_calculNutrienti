@@ -152,7 +152,7 @@ justify-content: center;
   text-wrap: balance;
 }
 .hero-content h2 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
 .hero-content p {
@@ -337,5 +337,6 @@ footer .social-items .social-link {
 
 }
  
+
 
 
