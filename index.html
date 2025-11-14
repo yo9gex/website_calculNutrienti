@@ -16,24 +16,24 @@
         <div class="logo">            
             <img src="images/G_M.png" alt="Meniu Gradinita"/>
         </div>
-        <button id="navToggleBtn" class="bnt-toggle">
+        <button id="navToggleBtn" class="btn-toggle">
   <i class="fa-solid fa-bars"></i>
         </button>
         <nav class="navigation">
             <ul class="nav-items">
                 <li class="nav-items">
-                    <a href="" class="nav-link">Descriere</a>
+                    <a href="#services" class="nav-link">Descriere</a>
                 </li>
                 <li class="nav-items">
-                    <a href="" class="nav-link">Proiect</a>
+                    <a href="#projects" class="nav-link">Proiect</a>
                 </li>
                 <li class="nav-items">
-                    <a href="" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
-                <li class="nav-items">
+              <!--  <li class="nav-items">
                     <a href="" class="nav-link">Formular comanda</a>
                 </li>
-
+              -->
             </ul>
         </nav>
        </div> 
@@ -42,7 +42,7 @@
 
     <main>
 
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="hero-overlay">
                 <div class="container">
                     <div class="hero-content">
@@ -50,7 +50,7 @@
                         <p>
                             Aplicația transformă o listă simplă de ingrediente într-un raport detaliat și profesional, iar la final o Ancheta Alimentara pe ultimele 10 zile .
                         </p>
-                        <a href="" class="btn-primary">
+                        <a href="#contact" class="btn-primary">
                             Vreau oferta
                         </a>
                     </div>
@@ -60,7 +60,7 @@
 
 <!--Inceput Sectiune descriere--> 
 
-        <section class="services">
+        <section id="services" class="services">
              <h2 class="section-title">Ce face aplicația?</h2>
              <p class="section-subtitle">
                  1. Calcul Nutritional Detaliat: Utilizatorii pot introduce ingredientele pentru patru mese diferite (Mic Dejun, Prânz Felul 1, Prânz Felul 2, Gustare). 
@@ -93,7 +93,7 @@
 <!--Sfarsit Sectiune descriere-->
 
 <!--Start proiect-->
-<section class="projects">
+<section id="projects" class="projects">
     <h2 class="section-title">Proiect</h2>
     <p class="section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
     <div class="container">
@@ -126,17 +126,91 @@
                     </h3>
                     <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, atque.</p>
                 </div>
+                
+        </div>
+          <div class="project-card">
+              <a href="" target="_blank" class="project-link">
+                 <img src="images/imaginiDinProiect/bazaDateProduse.png" 
+                      alt="site prezentare aplicatie"/>
+                             <div class="project-overlay">
+                                 <span>Deschide proiectul</span>
+                             </div>
+              </a> 
+                <div class="project-details">
+                    <h3 class="project-title">
+                        Site de prezentare aplicatie
+                    </h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, atque.</p>
+                </div>
+        </div>
+           <div class="project-card">
+              <a href="" target="_blank" class="project-link">
+                 <img src="images/imaginiDinProiect/totalNutrienti.png" 
+                      alt="site prezentare aplicatie"/>
+                             <div class="project-overlay">
+                                 <span>Deschide proiectul</span>
+                             </div>
+              </a> 
+                <div class="project-details">
+                    <h3 class="project-title">
+                        Site de prezentare aplicatie
+                    </h3>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, atque.</p>
+                </div>
         </div>
     </div>
 </section>
 <!--Sfarsit proiect-->
+<!-- Sectiune formular-->
+ <section id="contact" class="contact">
+<h2 class="section-title">Contact</h2>
+<p class="section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="container">
+    <form  class="contact-form">
+        <div class="form-group">
+            <input type="text" 
+                   name="fullname" 
+                   id="fullname" 
+                   placeholder="Nume si prenume">
+        </div>
+        <div class="form-group">
+            <input type="text" 
+                   name="fullname" 
+                   id="fullname" 
+                   placeholder="Adresa de email">
+        </div>
+        <div class="form-group form-message">
+<textarea name="message" 
+          id="message" 
+          cols="30" 
+          rows="10" 
+          placeholder="Mesaj"></textarea>
+        </div>
+        <button class="btn-primary">Trimite mesajul</button>
+    </form>
+</div>
+ </section>
     </main>
- 
-    <footer></footer>
+ <!--Sectiune footer-->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; Toate drepturile rezervate 2025
+            </div>
+            <ul class="social-items">
+                <li class="social-item">
+                    <a href="https://facebook.com" target="_blank" class="social-link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
  
    
    <script src="https://kit.fontawesome.com/d862dfd0cd.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
-
+ 
+  
