@@ -192,12 +192,12 @@ margin-bottom: .5rem;
 }
 .project-card {
 background-color: #fff;
-max-width: 500px;
+max-width: 400px;
 }
 .project-card .project-link {
 display: block;
 position: relative;
-height: 250px;
+height: 300px;
 }
 .project-card .project-overlay {
   font-weight: bold;
@@ -337,6 +337,7 @@ footer .social-items .social-link {
 
 }
  
+
 
 
 
